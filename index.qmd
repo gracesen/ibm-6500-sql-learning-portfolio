@@ -8,7 +8,7 @@ author: "Grace Sen"
 # IBM 6500 SQL Learning Portfolio
 
 **Student:** Grace Sen\
-**Course:** IBM 6500 – Customer Insight Methods & Survey Research
+**Course:** IBM 6500
 
 This portfolio contains my DataCamp course-completion evidence and learning notes for SQL and BigQuery. The reports document important concepts, SQL syntax, examples, and possible applications in marketing research and analytics.
 
