@@ -1,25 +1,25 @@
 ---
-title: "Untitled"
-editor: visual
+title: "IBM 6500 SQL Learning Portfolio"
+author: "Grace Sen"
 ---
 
-## Quarto
+------------------------------------------------------------------------
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+# IBM 6500 SQL Learning Portfolio
 
-## Running Code
+**Student:** Grace Sen\
+**Course:** IBM 6500 – Customer Insight Methods & Survey Research
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+This portfolio contains my DataCamp course-completion evidence and learning notes for SQL and BigQuery. The reports document important concepts, SQL syntax, examples, and possible applications in marketing research and analytics.
 
-```{r}
-1 + 1
-```
+## Reports
 
-You can add options to executable code like this
+- [Introduction to SQL](introduction-to-sql.html)
 
-```{r}
-#| echo: false
-2 * 2
-```
+- Introduction to BigQuery (To be completed)
 
-The `echo: false` option disables the printing of code (only output is displayed).
+- Intermediate SQL (To be completed)
+
+## Repository
+
+- [GitHub Repository](https://github.com/gracesen/IBM-6500-SQL-Learning-Portfolio)
