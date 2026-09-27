@@ -1,7 +1,110 @@
 ---
-title: "Introduction to SQL"
+title: "Introduction to SQL: Course Completion and Learning Notes"
 author: "Grace Sen"
-editor: visual
+date: today
+format:
+  html:
+    toc: true
+    toc-title: "Contents"
+    toc-depth: 3
+    number-sections: true
+    smooth-scroll: true
+    embed-resources: true
 ---
 
-## 
+# **Course-Completion Evidence**
+
+![](images/introduction-to-sql-certificate.png)
+
+I completed the DataCamp **Introduction to SQL** course on 09/27/2026.
+
+# Learning Notes and Key Takeaways
+
+## Meet Databases & SQL
+
+### Main Ideas
+
+A database organizes information into tables made of rows and columns. SQL is used to retrieve and work with the data stored in those tables.
+
+### Important SQL Syntax
+
+- `SELECT` chooses columns.
+
+- `FROM` identifies the table.
+
+### SQL Example
+
+```         
+SELECT customer_name, total_sales
+FROM customers
+```
+
+This query displays each customer’s name and total sales.
+
+### CEP Application
+
+I could use SQL to retrieve customer, sales, or marketing data needed for my CEP analysis.
+
+## Write Your First SQL
+
+### Main Ideas
+
+This chapter introduced queries for selecting, limiting, and sorting records. These tools make it easier to find the highest or lowest values in a table.
+
+### Important SQL Syntax
+
+- `LIMIT` controls the number of results.
+
+- `ORDER BY` sorts the results.
+
+- `ASC` and `DESC` determine the sorting direction.
+
+### SQL Example
+
+```         
+SELECT campaign_name, revenue
+FROM campaigns
+ORDER BY revenue DESC
+LIMIT 5
+```
+
+This query returns the five campaigns with the highest revenue.
+
+### CEP Application
+
+I could use these commands to identify the restaurant’s best-performing promotions, products, or marketing channels.
+
+## Complete Your SQL Foundation
+
+### Main Ideas
+
+This chapter covered unique values, column aliases, and differences among SQL flavors. It also explained how SQL works with databases in practice.
+
+### Important SQL Syntax
+
+- `DISTINCT` removes duplicate values.
+
+- `AS` gives a column a clearer temporary name.
+
+### SQL Example
+
+```         
+SELECT DISTINCT marketing_channel AS unique_channel
+FROM campaigns
+```
+
+This query returns each marketing channel once and renames the result as `channel`.
+
+### CEP Application
+
+I could use these commands to organize campaign data, remove repeated categories, and make analysis results easier to understand.
+
+# Overall Reflection and Future Reference
+
+The most useful skills I learned were selecting, sorting, and limiting data. Remembering the order of SQL commands was challenging, but more practice will help. SQL can support my CEP by helping me organize sales data, compare marketing performance, and identify customer patterns.
+
+# Appendix
+
+- [GitHub Repository](https://github.com/gracesen/IBM-6500-SQL-Learning-Portfolio)
+
+- [Published Introduction to SQL Report](https://gracesen.github.io/ibm-6500-sql-learning-portfolio/introduction-to-sql.html)

@@ -5,8 +5,6 @@ author: "Grace Sen"
 
 ------------------------------------------------------------------------
 
-# IBM 6500 SQL Learning Portfolio
-
 **Student:** Grace Sen\
 **Course:** IBM 6500
 
