@@ -14,7 +14,7 @@ This portfolio contains my DataCamp course-completion evidence and learning note
 
 - [Introduction to SQL](introduction-to-sql.html)
 
-- Introduction to BigQuery (To be completed)
+- [Introduction to BigQuery](https://gracesen.github.io/ibm-6500-sql-learning-portfolio/introduction-to-bigquery.html)
 
 - Intermediate SQL (To be completed)
 
