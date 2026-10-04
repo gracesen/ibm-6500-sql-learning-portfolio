@@ -40,7 +40,7 @@ BigQuery identifies a table by using the full path `project.dataset.table` insid
 
 ### SQL Example
 
-```sql
+``` sql
 SELECT *
 FROM `project_name.dataset_name.orders`
 LIMIT 3;
@@ -73,9 +73,9 @@ This chapter reviewed SQL queries and introduced BigQuery data types. It also ex
 - `CURRENT_TIMESTAMP()` returns the current date and time.
 - `UNNEST()` makes values stored in an array available as rows.
 
-### SQL Example
+### Example
 
-```sql
+``` sql
 SELECT
   order_id,
   FORMAT_DATE('%B %Y', order_date) AS order_month,
@@ -111,9 +111,9 @@ This chapter introduced common table expressions, aggregate functions, and windo
 - `RANK()` ranks records within a selected group.
 - `LAG()` and `LEAD()` compare a row with earlier or later rows.
 
-### SQL Example
+### Example
 
-```sql
+``` sql
 WITH campaign_sales AS (
   SELECT
     campaign_name,
@@ -156,9 +156,9 @@ The final chapter covered different join types, data manipulation language state
 - `MERGE` combines insert, update, and delete logic.
 - Selecting only needed columns and filtering early can reduce query cost.
 
-### SQL Example
+### Example
 
-```sql
+``` sql
 SELECT
   s.sale_date,
   s.revenue,
