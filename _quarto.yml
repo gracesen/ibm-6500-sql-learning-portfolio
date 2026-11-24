@@ -1,6 +1,22 @@
 project:
-  type: default
+  type: website
   output-dir: docs
+
+website:
+  title: "IBM 6500 SQL Learning Portfolio"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: introduction-to-sql.qmd
+        text: Introduction to SQL
+      - href: introduction-to-bigquery.qmd
+        text: Introduction to BigQuery
+      - href: intermediate-sql.qmd
+        text: Intermediate SQL
+    right:
+      - href: https://github.com/gracesen/ibm-6500-sql-learning-portfolio
+        text: GitHub Repository
 
 format:
   html:

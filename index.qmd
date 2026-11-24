@@ -3,9 +3,7 @@ title: "IBM 6500 SQL Learning Portfolio"
 author: "Grace Sen"
 ---
 
-------------------------------------------------------------------------
-
-**Student:** Grace Sen\
+**Student:** Grace Sen  
 **Course:** IBM 6500
 
 This portfolio contains my DataCamp course-completion evidence and learning notes for SQL and BigQuery. The reports document important concepts, SQL syntax, examples, and possible applications in marketing research and analytics.
@@ -13,11 +11,13 @@ This portfolio contains my DataCamp course-completion evidence and learning note
 ## Reports
 
 - [Introduction to SQL](introduction-to-sql.html)
+- [Introduction to BigQuery](introduction-to-bigquery.html)
+- [Intermediate SQL](intermediate-sql.html)
 
-- [Introduction to BigQuery](https://gracesen.github.io/ibm-6500-sql-learning-portfolio/introduction-to-bigquery.html)
+## Portfolio Progress
 
-- Intermediate SQL (To be completed)
+All three SQL learning assignments are included in this website. Use the navigation menu or the links above to open each report.
 
 ## Repository
 
-- [GitHub Repository](https://github.com/gracesen/IBM-6500-SQL-Learning-Portfolio)
+- [GitHub Repository](https://github.com/gracesen/ibm-6500-sql-learning-portfolio)
